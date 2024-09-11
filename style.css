@@ -52,7 +52,8 @@ h2{
     font-size: 2rem;
 }
 
-@media (max-width: 680px){
+@media (max-width: 680px)
+{
     .logo{
         width:100px;
     }
@@ -70,6 +71,6 @@ h2{
         margin-bottom: 10px;
         width: 100%;
         display: inline;
-        object-fit: cover;
+        object-fit:contain;
     }
 }
