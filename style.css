@@ -1,0 +1,75 @@
+Body {
+    font-family:"Teko", sans-serif ;
+    background-color: beige;
+    margin: 50px, 50px, 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+.main{
+    flex: 1;
+}
+
+.logo{
+    width: 150px;
+}
+
+.card{
+    width: 45%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.tile-image{
+    height: 300px;
+    float: left;
+    margin-right: 50px;
+}
+
+footer{
+    text-align: right;
+    color: midnightblue;
+}
+.creative{
+    color: midnightblue;
+}
+p{
+    font-size: 1.3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+@media (max-width: 680px){
+    .logo{
+        width:100px;
+    }
+    h1{
+       font-size: 2.2rem;
+       text-align: center;
+    }
+    .card{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+    .card img{
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+}
